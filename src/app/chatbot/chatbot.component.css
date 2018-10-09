@@ -1,0 +1,67 @@
+.chatform
+{
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 50px;
+  height: 40%
+}
+.chatcontrol
+{
+  float: left;
+  width: 100%;
+
+ .chatinput
+ {
+ width: 80%;
+ float: left;
+ border-radius: 0;
+ text-transform: uppercase;
+
+ } 
+ .sendbtn
+ {
+  height: 100%;
+  width: 100%;
+  float: left;
+  border-radius: 0;
+  text-transform: uppercase;
+ }
+}
+.message
+{
+  font-size: 1em;
+  font-style: italic;
+  font-weight: 400;
+
+}
+.timeform
+{
+  float: left;
+  width: 100%;
+  
+}
+
+.timestamp
+{
+  font-size: 0.6em;
+
+}
+
+.avtar
+{
+  width: 50px;
+  margin-right: 20px;
+
+}
+.chatList
+{
+  height: 300px;
+  overflow-y: scroll;
+
+
+}
+.chatinput
+{
+  width: 100%;
+  height: 100%;
+}

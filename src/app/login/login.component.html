@@ -1,0 +1,19 @@
+<div class="container">
+ <h1>Login Page</h1>
+
+<form>
+	<div class="form-group">
+		<label for="username">Email Address</label>
+		<input  type="email" class="form-control"name="username" id="username" aria-describedby="emailHelp" placeholder="Enter email" #username >
+	</div>
+				<div class="form-group">
+					<label for="Password">Password</label>
+					<input type="Password" class="form-control" name="Password"  id="Password" placeholder="Password" #password>
+				</div>
+			<button type="button" class="btn btn-primary" (click)="login(username,Password)" routerLink="/chatbot"> login</button>
+			
+		
+</form>
+<br>
+<h6>Donot have an account? <a routerLink="/signup">Sign Up</a></h6>
+</div>
